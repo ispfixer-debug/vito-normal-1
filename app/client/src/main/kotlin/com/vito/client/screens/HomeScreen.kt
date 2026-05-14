@@ -29,11 +29,21 @@ data class ServiceItem(
 )
 
 @Composable
-fun HomeScreen() {
+fun HomeScreen(
+    onRideClick: () -> Unit = {},
+    onSendClick: () -> Unit = {},
+    onMartClick: () -> Unit = {}
+) {
     val services = listOf(
         ServiceItem("ride", "VitoRide", Icons.Default.DirectionsCar, "Book a ride", Color(0xFF2196F3)),
         ServiceItem("send", "VitoSend", Icons.Default.LocalShipping, "Send packages", Color(0xFF4CAF50)),
         ServiceItem("mart", "VitoMart", Icons.Default.ShoppingCart, "Shop essentials", Color(0xFFFF9800))
+    )
+    
+    val serviceClickHandlers = mapOf(
+        "ride" to onRideClick,
+        "send" to onSendClick,
+        "mart" to onMartClick
     )
 
     Scaffold(
@@ -71,7 +81,10 @@ fun HomeScreen() {
             Spacer(modifier = Modifier.height(12.dp))
             LazyColumn(verticalArrangement = Arrangement.spacedBy(12.dp)) {
                 items(services) { service ->
-                    ServiceCard(service = service)
+                    ServiceCard(
+                        service = service,
+                        onClick = { serviceClickHandlers[service.id]?.invoke() }
+                    )
                 }
             }
             Spacer(modifier = Modifier.height(24.dp))
@@ -92,9 +105,9 @@ fun HomeScreen() {
 }
 
 @Composable
-fun ServiceCard(service: ServiceItem) {
+fun ServiceCard(service: ServiceItem, onClick: () -> Unit = {}) {
     Card(
-        modifier = Modifier.fillMaxWidth().height(100.dp),
+        modifier = Modifier.fillMaxWidth().height(100.dp).clickable { onClick() },
         shape = RoundedCornerShape(16.dp)
     ) {
         Row(

@@ -85,7 +85,7 @@ fun AdminMenuCard(item: AdminMenuItem) {
             Spacer(modifier = Modifier.width(16.dp))
             Text(item.title, modifier = Modifier.weight(1f), fontSize = 16.sp)
             if (item.count > 0) {
-                Badge { Text(item.count.toString()) }
+                // Badge placeholder Text(item.count.toString()) }
             }
             Icon(Icons.Default.ChevronRight, null, tint = Color.Gray)
         }

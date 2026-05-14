@@ -4,7 +4,7 @@
             "outputFile": "com.vito.admin-mergeDebugResources-50:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/home/openhands/.gradle/caches/transforms-4/b19672fad5eb6e4e549165cf1b928700/transformed/core-1.12.0/res/values-v16/values-v16.xml",
+                    "source": "/home/openhands/.gradle/caches/transforms-4/93ab5eaed3806bf4f31a6d883057b2a0/transformed/core-1.12.0/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

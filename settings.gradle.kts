@@ -17,7 +17,7 @@ dependencyResolutionManagement {
 rootProject.name = "Vito"
 include(":core:common")
 include(":core:data")
-include(":core:ui")
+
 include(":app:client")
 include(":app:driver")
 include(":app:admin")

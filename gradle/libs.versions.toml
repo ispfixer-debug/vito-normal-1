@@ -7,9 +7,14 @@ composeBom = "2024.01.00"
 composeCompiler = "1.5.10"
 navigation = "2.7.7"
 lifecycle = "2.7.0"
+zxing = "3.5.3"
 
 [libraries]
+# ... existing libraries ...
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version = "1.12.0" }
+# ... add zxing
+zxing-core = { group = "com.google.zxing", name = "core", version.ref = "zxing" }
+zxing-android = { group = "com.journeyapps", name = "zxing-android-embedded", version = "4.3.0" }
 androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version = "1.8.2" }
 androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
 androidx-compose-ui = { group = "androidx.compose.ui", name = "ui" }

@@ -1,16 +1,16 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /workspace/project/vito/core/common/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest2056267666616815790.xml:2:13-83
-INJECTED from /workspace/project/vito/core/common/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest2056267666616815790.xml:2:13-83
+ADDED from /workspace/project/vito/core/common/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest6672580972022649605.xml:2:13-83
+INJECTED from /workspace/project/vito/core/common/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest6672580972022649605.xml:2:13-83
 	package
-		INJECTED from /workspace/project/vito/core/common/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest2056267666616815790.xml
+		INJECTED from /workspace/project/vito/core/common/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest6672580972022649605.xml
 	xmlns:android
-		ADDED from /workspace/project/vito/core/common/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest2056267666616815790.xml:2:23-81
+		ADDED from /workspace/project/vito/core/common/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest6672580972022649605.xml:2:23-81
 uses-sdk
-INJECTED from /workspace/project/vito/core/common/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest2056267666616815790.xml reason: use-sdk injection requested
-INJECTED from /workspace/project/vito/core/common/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest2056267666616815790.xml
-INJECTED from /workspace/project/vito/core/common/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest2056267666616815790.xml
+INJECTED from /workspace/project/vito/core/common/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest6672580972022649605.xml reason: use-sdk injection requested
+INJECTED from /workspace/project/vito/core/common/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest6672580972022649605.xml
+INJECTED from /workspace/project/vito/core/common/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest6672580972022649605.xml
 	android:targetSdkVersion
-		INJECTED from /workspace/project/vito/core/common/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest2056267666616815790.xml
+		INJECTED from /workspace/project/vito/core/common/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest6672580972022649605.xml
 	android:minSdkVersion
-		INJECTED from /workspace/project/vito/core/common/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest2056267666616815790.xml
+		INJECTED from /workspace/project/vito/core/common/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest6672580972022649605.xml
