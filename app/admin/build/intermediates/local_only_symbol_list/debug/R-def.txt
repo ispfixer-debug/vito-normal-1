@@ -1,0 +1,9 @@
+R_DEF: Internal format may change without notice
+local
+id btnDrivers
+id btnRides
+id btnUsers
+id demoMode
+id subtitle
+id title
+layout activity_main

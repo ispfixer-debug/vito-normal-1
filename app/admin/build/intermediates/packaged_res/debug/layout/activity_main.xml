@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vito Admin"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp"/>
+
+    <TextView
+        android:id="@+id/subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dashboard"
+        android:textSize="16sp"
+        android:textColor="#666666"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnUsers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manage Users"
+        android:layout_marginTop="24dp"/>
+
+    <Button
+        android:id="@+id/btnRides"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View All Rides"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnDrivers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manage Drivers"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/demoMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Demo Mode: ON"
+        android:textColor="#2196F3"
+        android:layout_marginTop="32dp"/>
+
+</LinearLayout>

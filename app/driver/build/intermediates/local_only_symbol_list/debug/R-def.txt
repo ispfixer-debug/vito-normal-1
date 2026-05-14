@@ -1,0 +1,8 @@
+R_DEF: Internal format may change without notice
+local
+id btnAccept
+id btnEarnings
+id demoMode
+id status
+id title
+layout activity_main

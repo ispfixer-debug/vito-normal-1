@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="vito_red">#E61B2B</color>
+    <color name="white">#FFFFFF</color>
+    <integer name="google_play_services_version">201515000</integer>
+    <string name="app_name">Vito Client</string>
+    <style name="Theme.Vito" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/vito_red</item>
+        <item name="android:navigationBarColor">@color/vito_red</item>
+    </style>
+    <style name="Theme.Vito.Splash" parent="Theme.Vito">
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+</resources>

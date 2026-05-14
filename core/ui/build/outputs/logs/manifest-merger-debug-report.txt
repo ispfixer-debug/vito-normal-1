@@ -1,0 +1,16 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /workspace/project/vito/core/ui/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest10435880119816583271.xml:2:13-83
+INJECTED from /workspace/project/vito/core/ui/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest10435880119816583271.xml:2:13-83
+	package
+		INJECTED from /workspace/project/vito/core/ui/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest10435880119816583271.xml
+	xmlns:android
+		ADDED from /workspace/project/vito/core/ui/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest10435880119816583271.xml:2:23-81
+uses-sdk
+INJECTED from /workspace/project/vito/core/ui/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest10435880119816583271.xml reason: use-sdk injection requested
+INJECTED from /workspace/project/vito/core/ui/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest10435880119816583271.xml
+INJECTED from /workspace/project/vito/core/ui/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest10435880119816583271.xml
+	android:targetSdkVersion
+		INJECTED from /workspace/project/vito/core/ui/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest10435880119816583271.xml
+	android:minSdkVersion
+		INJECTED from /workspace/project/vito/core/ui/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest10435880119816583271.xml
